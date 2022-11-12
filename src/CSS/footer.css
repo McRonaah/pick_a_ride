@@ -1,0 +1,56 @@
+.footer {
+	display: flex;
+	margin: 0;
+	justify-content: space-between;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 20px;
+	background-color: #808080;
+	height: auto;
+	color: aliceblue;
+}
+
+.icon {
+	text-align: center;
+}
+
+.customer {
+	text-align: center;
+}
+
+.icons {
+	/* padding: 2px 2px 2px 2px; */
+	display: flex;
+}
+
+.icons :hover {
+	transform: scale(1.1);
+	transition: 0.4s;
+}
+
+.copyright {
+	text-align: center;
+	margin-bottom: 0.5em;
+}
+
+.copyright p {
+	font-size: 14px;
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 200px;
+	width: 300px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 200px;
+	width: 300px;
+	border-radius: 20px;
+}
+a {
+	text-decoration: none;
+}
