@@ -1,5 +1,5 @@
-
 import React, { useState } from "react";
+import '../CSS/login.css';
 
   const Register = (props) => {
   const [name, setName] = useState('');

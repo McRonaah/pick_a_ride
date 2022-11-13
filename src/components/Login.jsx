@@ -1,4 +1,5 @@
 // import React from 'react'
+import '../CSS/login.css';
 import React, { useState } from "react";
 
 export const Login = (props) => {

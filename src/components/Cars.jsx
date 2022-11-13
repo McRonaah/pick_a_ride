@@ -1,4 +1,5 @@
 import React from 'react'
+import '../CSS/cars.css';
 
  function Cars() {
   return (
