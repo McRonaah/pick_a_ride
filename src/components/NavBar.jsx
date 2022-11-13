@@ -39,6 +39,7 @@ const Navbar = () => {
           <NavLink to='/components/Register'>
             Register
           </NavLink>
+          <i className="topsearch icon fa-solid fa-magnifying-glass"></i>
         </NavMenu>
       </Nav>
     </>
