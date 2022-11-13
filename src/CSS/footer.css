@@ -18,14 +18,17 @@
 	text-align: center;
 }
 
-.icons {
-	/* padding: 2px 2px 2px 2px; */
-	display: flex;
+.icons img{
+	padding: 2px 2px 2px 2px;
+	display: inline-block;
+	box-sizing: border-box;
+    height: 50px;
+    background-size: 100% 100%;
 }
 
 .icons :hover {
 	transform: scale(1.1);
-	transition: 0.4s;
+	transition: 0.3s;
 }
 
 .copyright {
@@ -54,3 +57,4 @@
 a {
 	text-decoration: none;
 }
+@import url('https://css.gg/minimize.css');

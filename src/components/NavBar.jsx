@@ -1,5 +1,6 @@
 import React from 'react';
-// import logo from '../components/images/logo.jpg'
+import '../CSS/navBar.css';
+import gif from '../components/images/7308528.gif'
 import {
   Nav,
   NavLink,
@@ -11,7 +12,10 @@ const Navbar = () => {
     <>
       <Nav>
         <NavMenu className='navList'>
-        <header>
+        <header className='nav'>
+          <div >
+          <img src={gif} alt ="gif" className='gif-container'/>
+          </div>
         <div className="topicon">
 				<h1>PickaRide</h1>
 			  </div>

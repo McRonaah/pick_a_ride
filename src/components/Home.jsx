@@ -1,4 +1,5 @@
 import React from 'react'
+import original from '../components/images/original.jpeg'
 import '../CSS/home.css';
 
  function Home() {
@@ -6,7 +7,7 @@ import '../CSS/home.css';
     <div>
         <h1>Pick a ride</h1>
         <p>Welcome to Pick a Ride we eager to serve you</p>
-          <img src="../images/original.jpeg" alt="" />
+          <img src={original} alt="" className='original'/>
     </div>
   )
 }
