@@ -5,68 +5,100 @@ import '../CSS/contact.css';
  function Contact() {
   return (
     <div>
-     
-     
-         <h1 className="display-4 mb-4">Contact Us</h1>
-         <hr className="t_border my-4 ml-0 text-left" />
-     
-     <br/>
+    <section className="color_sec py-4">
+    <div className="contact-container">
+      <div className="content">
+        <h2>Contact Us</h2>
+        <hr className="t_border my-4 ml-0 text-left" />
+        <br></br>
 
-         <h3 className="color_sec py-4">Get in touch</h3>
-         <address>
-           <strong>Email:</strong>{" "}
-           
-           <br />
-           <br />
-            ? (
-             <p>
-               <strong>Phone:</strong> 
-             </p>
-           ) : (
-             ""
-           )
-         </address>
-         
-    
-         <form  className="contact__form w-100">
-          
-               <input
-                 className="form-control"
-                 id="name"
-                 name="name"
-                 placeholder="Name" 
-                 type="text"
-                 required 
-               />
-        
-               <input
-                 className="form-control rounded-0"
-                 id="email"
-                 name="email"
-                 placeholder="Email"
-                 type="email" 
-                 required 
-               />
-           
-           <br/>
-           <textarea
-             className="form-control rounded-0"
-             id="message"
-             name="message"
-             placeholder="Message"
-             rows="5" 
-             required
-           ></textarea>
-           <br />
+        <p>
+          Do you have a question about our cars..Reach out to us!!!
+        </p>
+      </div>
+
       
-               <button className="btn ac_btn" type="submit"> 
-               Send
-               </button>
+        <div className="contactInfo">
+          <div className="box">
+            <div className="icon"></div>
+            
+          </div>
+          <br></br>
+          <div className="box">
+            <div className="icon"></div>
+            <div className="text">
+              <h3>Email</h3>
+              <p> pickaride@gmail.com</p>
+            </div>
+          </div>
+          
+          <div className="box">
+            <div className="icon">
+         
+            </div>
+            <br></br>
+            <div className="text">
+              <h3>Phone</h3>
+              <p> (+254) 0000000000</p>
+            </div>
+          </div>
+        </div>
+        <br></br>
+        
+
+        <div className="contactForm">
+          <form>
+            <h2>Send Message</h2>
+            <br></br>
+            <div className="inputBox">
+            <label className="label" htmlFor="fullname">
+                Full Name
+              </label>
+              <input
+                type="text"
+                name=""
+                required="required"
+          
+             
+              />
+              
+            </div>
+
+            <div className="inputBox">
+            <label className="label" htmlFor="email">
+                Email
+              </label>
+              <input
+                type="text"
+                name=""
+                required="required"
            
-           
-         </form>
-       
+              />
+             
+            </div>
+
+            <div className="inputBox">
+            <label className="label" htmlFor="message">
+                Feedback
+              </label>
+              <textarea
+                required="required"
+              
+              ></textarea>
+             
+            </div>
+
+            <div className="inputBox">
+              
+            <button className="btn ac_btn" type="submit"> 
+                  Send
+                  </button>
+            </div>
+          </form>
+        </div>
+      </div>
     
+    </section>
     </div>
   )
 }
