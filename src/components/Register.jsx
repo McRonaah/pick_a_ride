@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import '../CSS/register.css';
+import { NavLink } from "react-router-dom";
 
   const Register = (props) => {
   const [name, setName] = useState('');
@@ -38,10 +39,13 @@ import '../CSS/register.css';
           <input value={pass} onChange={(e) => setPass(e.target.value)} type="password" placeholder="****" id="password" name="password" />
 
            
-          <button type="submit">Log In</button>
+          
+          <NavLink to='/components/About'>
+            <button type="submit">Register</button>
+          </NavLink>
       </form>
       <button className="link-btn" onClick={() => props.onFormSwitch('login')}>Already have an account? Login here!.</button>
-      {/* <NavLink to='/components/Login'>Login</NavLink> */}
+      
 
       
   </div>

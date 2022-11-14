@@ -1,0 +1,13 @@
+
+.hero{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.home-page{
+    background-image: url(../components/images/original.jpeg);
+    background-size: cover;
+    height: 110vh;
+    width: 100%;
+}
