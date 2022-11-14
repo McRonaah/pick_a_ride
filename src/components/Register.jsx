@@ -44,7 +44,10 @@ import { NavLink } from "react-router-dom";
             <button type="submit">Register</button>
           </NavLink>
       </form>
-      <button className="link-btn" onClick={() => props.onFormSwitch('login')}>Already have an account? Login here!.</button>
+      <NavLink to='/components/Login'>
+        <button className="link-btn" onClick={() => props.onFormSwitch('login')}>Already have an account? Login here!.</button>
+      </NavLink>
+      
       
 
       

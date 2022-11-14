@@ -17,7 +17,7 @@ const Navbar = () => {
           <img src={gif} alt ="gif" className='gif-container'/>
           </div>
         </header>
-        <h1>Pickaride</h1>
+        {/* <h1>Pickaride</h1> */}
           <NavLink to='/'>
             Home
           </NavLink>

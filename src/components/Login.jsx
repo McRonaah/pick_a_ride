@@ -29,7 +29,10 @@ export const Login = (props) => {
                     <button type="submit">Login</button>
                 </NavLink>
           </form>
-          <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
+            <NavLink to='/components/Register'>
+            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account? Register here.</button>
+            </NavLink>
+          
       </div>
   )
 }
