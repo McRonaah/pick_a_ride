@@ -2,7 +2,14 @@ import React from 'react';
 import '../CSS/car.css';
 import { Link } from "react-router-dom";
 
- function Car() {
+ function Car({
+	id,
+	milage,
+	description,
+	is_hired,
+	registration_no,
+	images,
+}) {
   return (
     <Link to={"/cars/" + id} style={{ textDecoration: "none" }}>
 			<div className="caritem" key={id}>
